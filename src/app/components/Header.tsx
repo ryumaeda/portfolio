@@ -3,7 +3,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div className="border-b-4 flex items-center py-4 fixed top-0 w-full bg-white">
+    <div className="border-b-2 flex items-center py-4 fixed top-0 w-full bg-white z-10">
       <Link href="/">
         <span className="text-5xl font-bold mx-10">TEST</span>
       </Link>
