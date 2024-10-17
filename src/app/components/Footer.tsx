@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="text-sm text-gray-700 border-t-2">gmail hogehoge twitter hogehoge</div>
+    <div className="text-sm text-gray-400 border-t-2 bg-gray-900 text-white"></div>
   );
 };
 
