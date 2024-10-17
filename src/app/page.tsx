@@ -5,6 +5,8 @@ import { motion } from "framer-motion";
 import { useEffect } from "react";
 import * as THREE from "three";
 
+declare module "three";
+
 const history_list = [
   {
     date: "2024/10/12",
