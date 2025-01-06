@@ -4,12 +4,15 @@ import Image from "next/image";
 
 const Header = () => {
   return (
-    <div className="flex items-center py-4 fixed top-0 w-full bg-black text-white z-10">
+    <header className="flex items-center py-4 sticky top-0 w-full bg-black text-white z-10">
       <Link href="/">
-        <span className="text-3xl font-medium mx-10">Ryu Maeda</span>
+        <span className="text-3xl font-medium mx-10">Mcreate</span>
       </Link>
       <Link href="/">
         <span className="mx-10 text-xl">Home</span>
+      </Link>
+      <Link href="/policy">
+        <span className="mx-10 text-xl">Policy</span>
       </Link>
       <div className="ml-auto mr-10">
         <Link href="https://github.com/ryumaeda?tab=repositories">
@@ -25,7 +28,7 @@ const Header = () => {
           </span>
         </Link>
       </div>
-    </div>
+    </header>
   );
 };
 
